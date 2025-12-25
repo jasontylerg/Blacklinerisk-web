@@ -1,111 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blackline Risk – AI Framework Demo</title>
-<style>
-  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin:0; padding:0; background:#f4f4f5; color:#111; }
-  header { background:#000; color:#fff; padding:1rem 2rem; display:flex; align-items:center; justify-content:space-between; }
-  header img { height:50px; }
-  header h1 { margin:0; font-size:1.5rem; }
-  main { padding:2rem; max-width:1200px; margin:auto; }
-  section { margin-bottom:2rem; background:#fff; padding:1.5rem; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
-  h2 { margin-top:0; color:#222; }
-  .framework { border:1px solid #ddd; border-radius:6px; margin-bottom:1rem; padding:1rem; }
-  .framework-header { display:flex; justify-content:space-between; align-items:center; cursor:pointer; }
-  .framework-body { display:none; margin-top:1rem; }
-  .framework-body table { width:100%; border-collapse:collapse; }
-  .framework-body th, .framework-body td { border:1px solid #ccc; padding:0.5rem; text-align:left; }
-  .framework-body th { background:#eee; }
-  footer { text-align:center; padding:1rem; font-size:0.9rem; color:#555; }
-  .active .framework-body { display:block; }
-  .ai-placeholder { background:#000; color:#fff; padding:0.5rem 0.75rem; border-radius:4px; font-weight:bold; display:inline-block; margin-top:0.5rem; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackline Risk</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #1c1c1c;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #111;
+    }
+    header img {
+      height: 50px;
+      margin-right: 20px;
+    }
+    header h1 {
+      font-size: 24px;
+      color: #fff;
+      margin: 0;
+    }
+    main {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 12px 28px;
+      background-color: #e63946;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      transition: background-color 0.2s ease;
+    }
+    .cta-button:hover {
+      background-color: #d62828;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #fff;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <img src="image/logo.png" alt="Blackline Risk Logo">
+    <h1>Blackline Risk</h1>
+  </header>
 
-<header>
-  <img src="image/logo.png" alt="Blackline Risk Logo">
-  <h1>AI Framework Demo</h1>
-</header>
+  <main>
+    <section>
+      <h2>Executive Risk Frameworks</h2>
+      <p>We provide tailored risk analysis frameworks for executives, integrating AI-driven insights to help you make faster, smarter decisions with minimal effort. Each framework is customized to the unique needs of your business.</p>
+      <a href="mailto:jason@blacklinerisk.com" class="cta-button">Request a Demo</a>
+    </section>
 
-<main>
-  <section>
-    <h2>Operational Risk Framework</h2>
-    <div class="framework">
-      <div class="framework-header">
-        <span>Scenario Overview</span>
-        <span>+</span>
-      </div>
-      <div class="framework-body">
-        <p>Sample operational data populated to show risk scoring and workflow alignment.</p>
-        <table>
-          <tr><th>Process</th><th>Risk Score</th><th>Status</th></tr>
-          <tr><td>Supply Chain</td><td>7/10</td><td>Monitoring</td></tr>
-          <tr><td>Maintenance</td><td>4/10</td><td>On Track</td></tr>
-          <tr><td>Compliance</td><td>5/10</td><td>Needs Attention</td></tr>
-        </table>
-        <span class="ai-placeholder">AI Document Parsing Placeholder</span>
-      </div>
-    </div>
-  </section>
+    <section>
+      <h2>AI-Powered Workflow</h2>
+      <p>Our interface enables you to navigate complex data and documents, gathering actionable intelligence efficiently. The sleek, user-friendly design allows executives to review insights without digging through endless reports.</p>
+    </section>
 
-  <section>
-    <h2>Regulatory Risk Framework</h2>
-    <div class="framework">
-      <div class="framework-header">
-        <span>Scenario Overview</span>
-        <span>+</span>
-      </div>
-      <div class="framework-body">
-        <p>Regulatory compliance simulation with automated scoring and reporting highlights.</p>
-        <table>
-          <tr><th>Regulation</th><th>Compliance Level</th><th>Status</th></tr>
-          <tr><td>EPA Standards</td><td>80%</td><td>Good</td></tr>
-          <tr><td>OSHA</td><td>60%</td><td>Partial</td></tr>
-          <tr><td>ISO 9001</td><td>90%</td><td>Good</td></tr>
-        </table>
-        <span class="ai-placeholder">AI Document Parsing Placeholder</span>
-      </div>
-    </div>
-  </section>
+    <section>
+      <h2>Our Approach</h2>
+      <p>We blend executive consulting with advanced AI tools to deliver decision-grade frameworks. From identifying risk exposure to designing mitigation strategies, our solutions are designed to provide clarity and operational leverage.</p>
+    </section>
+  </main>
 
-  <section>
-    <h2>PFAS Compliance Framework</h2>
-    <div class="framework">
-      <div class="framework-header">
-        <span>Scenario Overview</span>
-        <span>+</span>
-      </div>
-      <div class="framework-body">
-        <p>Simulated PFAS exposure and mitigation framework with executive dashboard.</p>
-        <table>
-          <tr><th>Location</th><th>Exposure Level</th><th>Action</th></tr>
-          <tr><td>Plant A</td><td>High</td><td>Immediate Mitigation</td></tr>
-          <tr><td>Site B</td><td>Medium</td><td>Monitor</td></tr>
-          <tr><td>Warehouse C</td><td>Low</td><td>No Action</td></tr>
-        </table>
-        <span class="ai-placeholder">AI Document Parsing Placeholder</span>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer>
-  &copy; 2025 Blackline Risk – All Rights Reserved
-</footer>
-
-<script>
-  document.querySelectorAll('.framework-header').forEach(header => {
-    header.addEventListener('click', () => {
-      const parent = header.parentElement;
-      parent.classList.toggle('active');
-      const span = header.querySelector('span:last-child');
-      span.textContent = parent.classList.contains('active') ? '-' : '+';
-    });
-  });
-</script>
-
+  <footer>
+    © 2025 Blackline Risk. All rights reserved. | <a href="mailto:jason@blacklinerisk.com" style="color:#fff;text-decoration:underline;">Contact</a>
+  </footer>
 </body>
 </html>
